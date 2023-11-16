@@ -20,8 +20,8 @@ class PeopleController {
     @GetMapping("/people")
     fun hello(): List<People> =
             listOf(
-                    People(name = "mango spring boot", age = 22),
-                    People(name = "apple spring boot", age = 25)
+                    People(name = "sense", age = 22),
+                    People(name = "tanodom", age = 25)
             )
 
     @PostMapping("/product")
